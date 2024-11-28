@@ -1,0 +1,40 @@
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    padding-bottom: 8px;
+}
+
+.time ul {
+    list-style: none;
+    padding: 32px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.time li {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.time img {
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content:space-around;
+    gap: 16px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
